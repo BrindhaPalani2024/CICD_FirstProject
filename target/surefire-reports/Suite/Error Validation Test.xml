@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="NadinGautham" failures="2" tests="2" name="Brindha.Maven_Project.TestCases.ErrorValidationTest" time="24.37" errors="0" timestamp="24 Apr 2024 11:40:37 GMT">
+  <testcase classname="Brindha.Maven_Project.TestCases.ErrorValidationTest" name="loginerrorvalidation" time="0.941">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;Incorrect email or password.&amp;gt; but was:&amp;lt;Incorrect emaill or password.&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<Incorrect email or password.> but was:<Incorrect emaill or password.>
+	at Brindha.Maven_Project.TestCases.ErrorValidationTest.loginerrorvalidation(ErrorValidationTest.java:20)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase classname="Brindha.Maven_Project.TestCases.ErrorValidationTest" name="loginerrorvalidation" time="0.509">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;Incorrect email or password.&amp;gt; but was:&amp;lt;Incorrect emaill or password.&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<Incorrect email or password.> but was:<Incorrect emaill or password.>
+	at Brindha.Maven_Project.TestCases.ErrorValidationTest.loginerrorvalidation(ErrorValidationTest.java:20)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

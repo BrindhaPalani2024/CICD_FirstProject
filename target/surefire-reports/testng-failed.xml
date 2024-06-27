@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="Brindha.Maven_Project.TestComponent.Listeners"/>
+  </listeners>
+  <test parallel="tests" name="Error Validation Test(failed)" preserve-order="false">
+    <classes>
+      <class name="Brindha.Maven_Project.TestCases.ErrorValidationTest">
+        <methods>
+          <include name="loginerrorvalidation"/>
+          <include name="launchApplication"/>
+          <include name="teardown"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

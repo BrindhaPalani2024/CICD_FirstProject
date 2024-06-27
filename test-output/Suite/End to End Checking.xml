@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="NadinGautham" failures="0" tests="4" name="Brindha.Maven_Project.TestCases.end_to_end_flowTest" time="52.246" errors="0" timestamp="26 Apr 2024 00:44:07 GMT">
+  <testcase classname="Brindha.Maven_Project.TestCases.end_to_end_flowTest" name="submitorder" time="7.573"/>
+  <testcase classname="Brindha.Maven_Project.TestCases.end_to_end_flowTest" name="submitorder" time="7.151"/>
+  <testcase classname="Brindha.Maven_Project.TestCases.end_to_end_flowTest" name="validateproduct" time="1.847"/>
+  <testcase classname="Brindha.Maven_Project.TestCases.end_to_end_flowTest" name="validateproduct" time="1.443"/>
+</testsuite>

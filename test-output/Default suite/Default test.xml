@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="NadinGautham" failures="2" tests="2" name="io.cucumber.testng.AbstractTestNGCucumberTests" time="18.663" errors="0" timestamp="6 Jun 2024 09:02:03 GMT">
+  <testcase classname="cucumber.TestNGRunner" name="runScenario" time="6.299">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;Incorrect email or password.&amp;gt; but was:&amp;lt;Incorrect emaill or password.&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<Incorrect email or password.> but was:<Incorrect emaill or password.>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:480)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at Brindha.Maven_Project.StepDefinition.stepdefinition.error_message_displayed_on_confirmation_page(stepdefinition.java:67)
+	at ✽."Incorrect emaill or password." message on login page(file:///C:/Users/Brindha/eclipse-workspace/newworkspace/Maven_Project/src/test/java/cucumber/ErrorValidation.feature:9)
+]]>
+    </failure>
+  </testcase>
+  <testcase classname="cucumber.TestNGRunner" name="runScenario" time="11.49">
+    <failure type="junit.framework.AssertionFailedError">
+      <![CDATA[junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at Brindha.Maven_Project.StepDefinition.stepdefinition.message_displayed_on_confirmation_page(stepdefinition.java:61)
+	at ✽."THANKYOU FOR THE ORDER" the message is displayed on confirmation page(file:///C:/Users/Brindha/eclipse-workspace/newworkspace/Maven_Project/src/test/java/cucumber/purchaseorder.feature:13)
+]]>
+    </failure>
+  </testcase>
+</testsuite>
